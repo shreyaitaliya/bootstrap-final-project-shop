@@ -1,0 +1,53 @@
+.js-cursor {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  margin: -20px 0 0 -20px;
+  mix-blend-mode: difference;
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+.js-cursor:before, .js-cursor:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  border-radius: 50%;
+}
+.js-cursor:before {
+  height: 8px;
+  width: 8px;
+  background: rgba(27, 137, 222, 0.91);
+}
+.js-cursor:after {
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgba(26, 71, 185, 0.725);
+  transition-duration: 0.4s;
+  transition-property: border-color, background, transform;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+.js-cursor.is-active {
+  opacity: 1;
+  visibility: visible;
+  will-change: transform;
+}
+.js-cursor.is-focus:after {
+  transform: translate3d(-50%, -50%, 0) scale(2.75);
+  border-color: transparent;
+  background: rgba(68, 38, 220, 0.947);
+}
+.js-cursor.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+}/*# sourceMappingURL=cursour.css.map */

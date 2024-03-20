@@ -1,0 +1,760 @@
+body{
+    background-color: #f8f8f8;
+    font-family: 'Inter'
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.bg-primary {
+    background-color: #3459ed!important;
+}
+.text-primary{
+    color: #1868D5;
+}
+/* nav :start */
+.topbar-navc span, .topbar-drop span{
+    font-size: 12px;
+}
+nav{
+    border-bottom: 1px solid rgb(217, 211, 211);
+}
+/* nav end */
+/* header :start */
+header .nav-menu sup{
+    background-color: rgba(34, 83, 163, 0.684);
+    border-radius: 50%;
+    font-size: 10px;
+    width: 15px;
+    line-height: 15px;
+    text-align: center;
+    height:15px;
+    display: inline-block;
+}
+header{
+    border-bottom: 1px solid rgb(217, 211, 211);
+}
+.form-control{
+    font-size: 12px;
+    border-radius: 0;
+    border-right: 0;
+}
+.btn-outline-success{
+    font-size: 14px;
+    border-radius: 0;
+   background-color:#3459ed;
+   color: white;
+   border: 0;
+}
+.header-bottom .h-botom .b-btn button{
+    background-color: black;
+    color: white;
+    padding: 7px 15px;
+    border: 0;
+    font-size: 14px;
+}
+.header-bottom .h-botom .catlog button{
+    border: 0;
+    border-radius: 10px 10px 0 0;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 259px;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.dropdown-menu{
+    min-width:16rem;
+    border: 0;
+    border-radius: 0 0 10px 10px;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+/* header end */
+
+/* header bottom :start */
+
+.header-bottom .h-menu ul li .mega-menu {
+    width: 67.5vw;
+    left: 26.04rem;
+    background-color: white;
+    padding: 20px 30px;
+    position:absolute;
+	background-color:white;
+	top:250px;
+	opacity:0;
+	visibility:hidden;
+	transition:all 0.5s;
+}
+
+.header-bottom .h-menu ul li:hover .mega-menu {
+    opacity:1;
+	visibility:visible;
+	top:150px;
+}
+.header-bottom .h-menu ul li .mega-menu .content .details h3{
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+.header-bottom .h-menu ul li .mega-menu .content .details ul li {
+    padding: 6px 0px;
+}
+.header-bottom .h-menu ul li .mega-menu .content .details ul li a {
+    color: #898989;
+    transition: all 0.5s;
+}
+.header-bottom .h-menu ul li .mega-menu .content .details ul li:hover a {
+    color:#3459ed;
+    border-bottom: 1px solid #3459ed;
+}
+.header-bottom .h-menu ul li .drop-down {
+    position:absolute;
+	background-color:white;
+	top:250px;
+	opacity:0;
+	visibility:hidden;
+	transition:all 0.5s;
+	width:200px;
+}
+.header-bottom .h-menu ul li:hover .drop-down {
+    opacity:1;
+	visibility:visible;
+	top:150px;
+}
+
+.header-bottom .h-menu ul li .drop-down ul li {
+    padding: 8px 15px;
+}
+
+.header-bottom .h-menu ul li .drop-down ul li a:hover {
+    color: #3459ed !important;
+    border-bottom: 1px solid #3459ed!important;
+    padding: 0 !important;
+}
+
+/* slider start */
+.slider{
+    background-image: url('../img/banner-3.1.png');
+    padding: 120px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider .slide-content h1{
+    font-size: 66px;
+    font-weight: 800;
+}
+.slider .slide-content button{
+    background-color: #1868D5;
+    color: white;
+    border: 0;
+    padding: 15px 30px;
+}
+/* slider end */
+/* mobile menu :start */
+.mobile-menu{
+    padding: 80px 0;
+}
+.mobile-menu .mobile-img1{
+    border-top: 1px solid rgb(240, 235, 235);
+}
+.mobile-menu .m-menu{
+    border-right: 1px solid rgb(240, 235, 235);
+}
+/* mobile menu :end */
+/* new arrival :start */
+.new-arrival .n-content button,.gamer-world .n-content button,.top-selling .n-content button,.popular-sale .n-content button,.popular-list .n-content button{
+    background-color: transparent;
+    border: 0;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.new-arrival .n-content h2,.gamer-world .n-content h2,.top-selling .n-content h2,.popular-sale .n-content h2,.popular-list .n-content h2{
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.new-arrival .product-cart,.gamer-world .product-cart,.top-selling .sell-box {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 15px 64px 0px;
+}
+.new-arrival .product-cart .add-cart .blue-btn{
+    background-color: rgb(24 104 213);
+    color: rgb(255 255 255);
+    border: 0;
+    padding: 10px 60px;
+}
+.new-arrival .product-cart .add-cart{
+    position: absolute;
+    bottom: -35px;
+    left:38px;
+    visibility: hidden;
+    transition: all 0.5s; 
+ }
+  .new-arrival .product-cart:hover .add-cart{
+    visibility: visible;
+    transition: all 0.5s;
+    bottom: 10px;
+}
+.new-arrival .product-cart .side-menu a i{
+    padding: 5px;
+    background-color:  rgb(248, 244, 244);
+}
+.new-arrival .product-cart{
+    position: relative;
+    overflow: hidden;
+}
+.new-arrival .product-cart .side-menu{
+    flex-direction: column;
+    display:flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: -35px;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+.new-arrival .product-cart:hover .side-menu{
+    visibility: visible;
+    right: 21px;  
+}
+.new-arrival .product-cart .produtc-img1{
+    background-image: url('../img/product-img-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.new-arrival .product-cart .produtc-img2{
+    background-image: url('../img/product-img-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.new-arrival .product-cart .produtc-img3{
+    background-image: url('../img/product-img-3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.new-arrival .product-cart .produtc-img4{
+    background-image: url('../img/product-img-4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.new-arrival .product-cart .produtc-img5{
+    background-image: url('../img/product-img-5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.new-arrival .product-cart .produtc-img6{
+    background-image: url('../img/product-img-6.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.new-arrival .product-cart .produtc-img7{
+    background-image: url('../img/product-img-7.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.new-arrival .product-cart .produtc-img8{
+    background-image: url('../img/product-img-8.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.new-arrival .product-cart .produtc-img9{
+    background-image: url('../img/product-img-9.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.new-arrival .product-cart .produtc-img10{
+    background-image: url('../img/product-img-10.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.new-arrival .product-cart .produtc-img11{
+    background-image: url('../img/product-img-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.new-arrival .product-cart .produtc-img12{
+    background-image: url('../img/product-img-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+/* new arrival :start */
+/* gamer world :start */
+.gamer-world{
+    padding: 80px 0;
+}
+.gamer-world .product-cart-img{
+    background-image: url('../img/product-img-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+.gamer-world .product-cart .product-content p:hover{
+    color:#3459ed;
+    cursor: pointer;
+}
+.gamer-world .product-cart .add-cart .blue-btn,.popular-sale .popular-cart .add-cart .blue-btn{
+    background-color: rgb(24 104 213);
+    color: rgb(255 255 255);
+    border: 0;
+    padding: 10px 60px;
+}
+.gamer-world .product-cart .add-cart,.popular-sale .popular-cart .add-cart{
+    position: absolute;
+    top: 127px;
+    left:38px;
+    visibility: hidden;
+    transition: all 0.3s; 
+ }
+.gamer-world .product-cart:hover .add-cart,.popular-sale .popular-cart:hover .add-cart{
+    top:100px;
+    visibility: visible;
+    transition: all 0.3s;
+}
+.gamer-world .product-cart,.popular-sale .popular-cart{
+    position: relative;
+}
+.gamer-world .product-cart .side-menu,.popular-sale .popular-cart .side-menu{
+    flex-direction: column;
+    display:flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 0;
+    visibility: hidden;
+}
+.gamer-world .product-cart:hover .side-menu,.popular-sale .popular-cart:hover .side-menu{
+    visibility: visible;
+    right: 15px;
+    transition: all 0.5s;
+}
+.gamer-world .product-cart .product-cart-img1{
+    background-image: url('../img/product-img-2\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.gamer-world .product-cart .product-cart-img1 .loading .progrees-title p,span{
+    font-size: 12px;
+}
+.gamer-world .product-cart .product-cart-img1 .progress{
+    position: relative;
+    border: 4px solid  rgb(248 248 248);
+    border-radius: 22px;
+}
+.gamer-world .product-cart .product-cart-img1 .progress .blue-prog{
+    position: absolute;
+    background-color: rgb(24 104 213);
+    width: 66.6667%;
+    height: 100%;
+}
+.gamer-world .product-cart .product-cart-img2{
+    background-image: url('../img/product-img-3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.gamer-world .product-cart .product-cart-img2 .progrees-title{
+    right: 15px;
+    background-color:  rgb(25 204 64);
+    color: white;
+    border-radius: 15px;
+    padding: 0px 10px;
+}
+.gamer-world .product-cart .product-cart-img3{
+    background-image: url('../img/product-img-4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.gamer-world .product-cart .product-cart-img3 .loading .progrees-title p,span,.popular-sale .popular-cart .popular-cart-img3 .loading .progrees-title p,span{
+    font-size: 12px;
+}
+.gamer-world .product-cart .product-cart-img3 .progress,.popular-sale .popular-cart .popular-cart-img1 .progress,.popular-sale .popular-cart .popular-cart-img3 .progress{
+    position: relative;
+    border: 4px solid  rgb(248 248 248);
+    border-radius: 22px;
+}
+.gamer-world .product-cart .product-cart-img3 .progress .blue-prog,.popular-sale .popular-cart .popular-cart-img1 .progress .blue-prog,.popular-sale .popular-cart .popular-cart-img3 .progress .blue-prog{
+    position: absolute;
+    background-color: rgb(24 104 213);
+    width: 66.6667%;
+    height: 100%;
+}
+/* gamer world :end */
+/* top selling products :start */
+.top-selling{
+    padding: 80px 0;
+}
+.top-selling .sell-box .sell-content button{
+    background-color: rgb(24 104 213);
+    color: rgb(255 255 255);
+    border: 0;
+    padding: 5px 10px;
+}
+.top-selling .sell-box{
+    height: 250px;
+}
+.top-selling .sell-box .sell-content p:hover,.popular-sale .popular-cart .popular-content p:hover{
+    color:#3459ed;
+    cursor: pointer;
+}
+.top-selling .sell-box .side-menu{
+    flex-direction: column;
+    display:flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 0;
+    visibility: hidden;
+}
+.top-selling .sell-box:hover .side-menu{
+    visibility: visible;
+    right: 15px;
+    transition: all 0.5s;
+}
+.top-selling .sell-box .side-menu a i{
+    padding: 5px;
+    background-color:  rgb(248, 244, 244);
+}
+/* top selling products :end */
+/* popular sales :start */
+.popular-sale .popular-cart .popular-cart-img1{
+    background-image: url('../img/product-img-5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.popular-sale{
+    padding: 80px 0;
+}
+.popular-sale .popular-cart .popular-cart-img1 .progrees-title p,span{
+    font-size: 12px;
+}
+.popular-sale .popular-cart .popular-cart-img{
+    background-image: url('../img/product-img-6.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.popular-sale .popular-cart .popular-cart-img2{
+    background-image: url('../img/product-img-7.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.popular-sale .popular-cart .popular-cart-img2 .progrees-title{
+    right: 15px;
+    background-color:  #ffbb38;
+    color: white;
+    border-radius: 15px;
+    padding: 3px 12px;
+    font-size: 9px;
+}
+.popular-sale .popular-cart .popular-cart-img3{
+    background-image: url('../img/product-img-8.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.p-listcard{
+    height: 123px !important;
+    margin-top: 10px !important;
+}
+/* popular sales :end */
+/* adds mobile :start */
+.adds .counting-sec{
+    background-image: url('../img/campaign-cover-countdown.jpg');
+}
+.adds .counting-sec .count-content .contdown-content h2{
+    font-size: 44px;
+    font-weight: 800;
+}
+.adds .counting-sec .count-content .contdown-content button{
+    background-color: transparent;
+    border: 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 15px;
+    border-bottom: 1px solid  rgb(255 187 56);
+    padding: 0;
+}
+.adds .download-app{
+    background-image: url('../img/download-app-cover.png');
+}
+.count,.count1, .count2 {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-family: verdana;
+    float: left;
+    margin: 25px;
+}
+.count1{
+    color: rgb(199, 100, 117);
+}
+.count2{
+    background-color: transparent;
+    color: black;
+    margin-top: 0;
+}
+/* adds mobile :end */
+/* shipping :start */
+.shiping{
+    background-image: url('../img/pexels-sound-on-3394650.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0;
+    background-color: rgba(52, 111, 118, 0.477);
+    background-blend-mode: darken; 
+}
+/* shipping :end */
+/* footer :start */
+footer{
+    padding: 80px 0 40px 0;
+}
+footer .foot-logo{
+    border-bottom: 1px solid rgb(233 233 233);
+    padding-bottom: 30px;
+}
+footer .featureul li a{
+    transition: all 0.5s;
+}
+footer .feature ul li:hover a{
+    border-bottom: 1px solid black;
+    color: black !important;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+footer .bottom-bar{
+    border-top: 1px solid rgb(233 233 233) ;
+}
+/* footer :end */
+/* off canvas :start */
+.offcanvas{
+    width: 300px;
+}
+.offcanvas .search-bar .s-icon{
+    background-color: rgb(24 104 213);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.offcanvas .form{
+    border-color: rgb(255, 251, 251);
+}
+.offcanvas .form input{
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.offcanvas .catagary .ab{
+    border-right: 1px solid rgb(151, 136, 136);
+}
+.offcanvas .c-img i,span{
+    font-size: 16px;
+}
+.navbar-light .navbar-toggler{
+    border: 0;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.nav-menu i{
+    font-size: 16px;
+}
+.main-load{
+    display: none;
+}
+/* loader :start */
+.loader {
+    flex-direction: column;
+    position: fixed;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+  }
+  
+  .curve {
+    width: 180%;
+    height: 180%;
+    position: absolute;
+    animation: rotate 8s linear infinite;
+    fill: transparent;
+  }
+  
+  .curve text {
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    font: 1.5em "Fira Sans", sans-serif;
+    fill: rgb(112, 191, 219);
+    filter: drop-shadow(0 2px 8px rgb(124, 195, 216));
+  }
+  
+  .blackhole {
+    z-index: -1;
+    display: flex;
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .blackhole-circle {
+    z-index: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, rgb(105, 172, 200) 25%, white 35%, white 100%);
+    box-shadow: 0px 0px 2rem #39739a;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .blackhole-circle::after {
+    z-index: 0;
+    position: absolute;
+    content: "";
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 4px solid rgb(109, 195, 201);
+    background: radial-gradient(circle at center, black 35%, rgb(120, 162, 224) 60%, rgb(75, 127, 152) 100%);
+    box-shadow: 0px 0px 5rem #5294a2;
+    align-items: center;
+    justify-content: center;
+    filter: blur(4px);
+    animation: pulseAnimation linear infinite 2s alternate-reverse;
+  }
+  
+  .blackhole-circle::before {
+    z-index: 1;
+    content: "";
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid #214e93;
+    box-shadow: 3px 3px 10px #4b82a0, inset 0 0 1rem #6d92b0;
+    border-radius: 50%;
+    top: 5rem;
+    filter: blur(0.5px);
+    animation: rotate linear infinite 3s;
+  }
+  
+  .blackhole-disc {
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    width: 5rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #3a83ae 80%, #4b809b 90%, rgb(255, 255, 255) 100%);
+    filter: blur(1rem) brightness(130%);
+    border: 1rem solid rgb(82, 123, 166);
+    box-shadow: 0px 0px 3rem #57a9c7;
+    transform: rotate3d(1, 1, 1, 220deg);
+    animation: pulseAnimation2 linear infinite 2s alternate-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blackhole-disc::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    width: 5rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #4368bd 80%, #5e7cc1 90%, rgb(76, 99, 176) 100%);
+    filter: blur(3rem);
+    border: 1rem solid rgb(73, 101, 183);
+    box-shadow: 0px 0px 6rem #6074bd;
+    animation: pulseAnimation linear infinite 2s alternate-reverse;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes pulseAnimation {
+    0% {
+      box-shadow: 0px 0px 3rem #c2babb;
+      transform: scale(1);
+    }
+  
+    100% {
+      box-shadow: 0px 0px 5rem #c2babb;
+      transform: scale(1.09);
+    }
+  }
+  
+  @keyframes pulseAnimation2 {
+    0% {
+      box-shadow: 0px 0px 3rem #c2babb;
+      transform: rotate3d(1, 1, 1, 220deg) scale(1);
+    }
+  
+    100% {
+      box-shadow: 0px 0px 5rem #c2babb;
+      transform: rotate3d(1, 1, 1, 220deg)  scale(.95);
+    }
+  }
+  
+                       
+
+
